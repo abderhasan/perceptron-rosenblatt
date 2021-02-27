@@ -1,4 +1,4 @@
-# 
+# Solving the AND gate using Rosenblatt's perceptron
 
 import numpy as np
 
