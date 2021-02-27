@@ -1,3 +1,4 @@
+# Solving the AND gate using Rosenblatt's perceptron
 import numpy as np
 
 input_size = 2 # number of features
