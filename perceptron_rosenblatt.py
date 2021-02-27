@@ -1,6 +1,5 @@
 import numpy as np
 
-
 input_size = 2 # number of features
 lr = 0.1 
 epochs = 10
