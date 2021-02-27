@@ -1,8 +1,10 @@
+# 
+
 import numpy as np
 
 input_size = 2 # number of features
 lr = 0.1 
-epochs = 10
+epochs = 1022
 
 X = np.array([
               [0,0],
@@ -14,11 +16,11 @@ X = np.array([
 W = np.array([0,0,0]) # initialize weights
 
 y = np.array([
-			   0,
-			   0,
-			   0,
-			   1
-			  ])
+	      0,
+	      0,
+	      0,
+              1
+             ])
 
 def activation_function(z):
 	if z >= 0:
