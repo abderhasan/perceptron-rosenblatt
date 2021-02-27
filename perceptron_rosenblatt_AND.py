@@ -46,7 +46,7 @@ for epoch in range(epochs):
 		else:
 			W = W
 
-	if n == 3:
+	if n == 4:
 		print('n= ' + str(n))			
 		print('Congratulations! The perceptron converged successfully.')
 		print('Those are the weights:')
