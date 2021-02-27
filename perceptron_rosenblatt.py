@@ -5,7 +5,7 @@ lr = 0.1
 epochs = 10
 
 X = np.array([
-        	  [1,2],
+              [1,2],
               [-1,2],
               [0,-1],
              ])
@@ -13,10 +13,10 @@ X = np.array([
 W = np.array([1.0,-0.8]) # initialize weights
 
 y = np.array([
-			   1,
-			   -1,
-			   -1
-			  ])
+	      1,
+              -1,
+	      -1
+	      ])
 
 def activation_function(z):
 	if z >= 0:
